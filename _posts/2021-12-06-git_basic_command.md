@@ -52,7 +52,7 @@ __git reset 옵션__
 —soft: respositoy까지 반영. [commit에 해당]   
 —mixed: : index(staging area)까지 반영. [add에 해당]   
 —hard: working directory까지 반영.   
-![git_reset](./img/git_reset.png)   
+![git_reset](/img/git_reset.png)   
    
 - git revert: 커밋을 취소하면서 새로운 버전을 만드는 것.   
          
