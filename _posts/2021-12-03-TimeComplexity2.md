@@ -1,5 +1,5 @@
 ---
-title: 시간복잡도 2
+title: Time Complexity 2
 date: 2021-12-03 12:00:00 +0800
 categories: [Computer Science, Data structure]
 tags: [python, cs, 자료구조]

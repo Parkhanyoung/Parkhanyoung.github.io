@@ -12,7 +12,7 @@ tags: [rdb, cardinality, relationship]
 한 명의 작성자는 여러 개의 글을 쓸 수 있지만, 하나의 글은 여러 작성자에 의해 작성될 수 없다.   
 작성자와 게시글의 관계도 마찬가지이다.   
 참조하는 쪽의 테이블에서는 참조되는 데이터가 여러 번 반복해서 참조될 수 있다.    
-![OnetoMany](./img/OnetoMany.png)   
+![OnetoMany](/assets/img/post-img/OnetoMany.png)   
 
 ### 2. Many-to-Many Relationship(다대다 관계)   
 한 테이블의 한 개 이상의 row가 다른 한 테이블의 한 개 이상의 row와 엮인다.   

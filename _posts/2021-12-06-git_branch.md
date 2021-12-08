@@ -22,7 +22,7 @@ tags: [git, 협업, tool, branch]
      
 [브랜치가 여러 개여도 각 변경 사항만 저장하기에 추가적인 저장소 사용은 크게 없다.]    
     
-<img src="img/gitbranch_concept.png"  width="400" height="350"/> 
+![gitbranch](/assets/img/post-img/gitbranch_concept.png){: width="400" height="350" }
     
 ### 브랜치 생성 및 이동    
 * git branch: 현재 생성된 브랜치 목록을 확인한다. [default는 master]   
