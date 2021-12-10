@@ -1,5 +1,5 @@
 ---
-title: Git Basic Command
+title: Git Basic Commands
 date: 2021-12-06 12:00:00 +0800
 categories: [Git]
 tags: [git, 협업, tool]

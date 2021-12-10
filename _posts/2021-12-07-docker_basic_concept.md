@@ -1,8 +1,8 @@
 ---
 title: Docker Basic Concept
-date: 2021-12-08 00:00:00 +0800
+date: 2021-12-07 00:00:00 +0800
 categories: [Docker]
-tags: [Docker, container, tool]
+tags: [docker, container, tool]
 ---
 # Docker 기본 개념
 
@@ -48,6 +48,6 @@ Docker 엔진은 리눅스 커널에서 제공하는 이 세 가지 기능을 Do
 host는 Docker를 돌리는 사용자의 실제 컴퓨터 환경이고, container는 docker로 생성한 가상의 환경이다.
 
 ---
-__공부 자료__
+__공부 자료__     
 [생활코딩]생활코딩 Docker 입문수업: https://www.youtube.com/watch?v=Ps8HDIAyPD0     
 [44bits.io]Docker(Docker) 입문편: https://www.44bits.io/ko/post/easy-deploy-with-docker
