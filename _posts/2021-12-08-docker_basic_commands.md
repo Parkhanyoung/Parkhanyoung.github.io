@@ -26,13 +26,14 @@ docker browser를 통해서도 다운 받을 수 있다.
 명령어: docker run [options] ImageName [command] [arg...]           
 ex. docker run --name webserver -p 8080:80 httpd     
 [httpd image를 이용하여 webserver라는 이름으로 container를 만들고, 8080포트를 container의 80포트랑 연결시킨다.]    
-docker run -i: i는 interactive의 약자이다. container와 상호적으로 주고 받겠다는 뜻으로, STDIN(표준입력)으로 container를 생성하겠다는 뜻이다.    
-docker run -t: t는 
+docker run -i: i는 interactive의 이니셜이다. container와 상호적으로 주고 받겠다는 뜻으로, attach 없이도 STDIN으로 유지하겠다는 뜻이다.    
+docker run -t: t는 tty의 이니셜이다. 리눅스에서 tty는 콘솔 및 터미널 환경을 의미한다. -t 옵션은 터미널과 같은 환경을 조성해준다.            
+docker run -d: d는 detach의 이니셜이다. container를 백그라운드에서 실행시킨다.    
      
 ### docker ps    
-기능: 생성된 container 정보를 조회한다.    
-명령어: docker ps     
-docker ps -a: 종료된 container까지 포함하여 조회한다.    
+기능: 생성된 container 정보를 조회한다.     
+명령어: docker ps      
+docker ps -a: 종료된 container까지 포함하여 조회한다.        
       
 ### docker stop     
 기능: 실행중인 container를 중단시킨다.    
@@ -56,8 +57,13 @@ image 삭제의 경우에는 'docker rmi ImageName' 명령어를 사용한다.
 [혹은 image prune이라는 명령어를 이용한다.]     
      
 ### docker exec       
-기능: container의 터미널을 사용한다.       
-명령어: docker exec -it ContainerName /bin/sh[/bin/bash]     
+기능: 실행 중인 컨테이너에 명령을 내린다.      
+명령어: docker exec ContainerName Command      
+ex. docker exec -it ContainerName /bin/sh[/bin/bash] [실행 중인 컨테이너 bash 실행]      
+       
+### docker attach      
+기능: 실행 중인 컨테이너에 접속한다.      
+명령어: docker attach ContainerName      
     
 ### 호스트와 container의 파일 시스템 연결     
 container의 효용은 필요할 때 손쉽게 만들고, 필요 없어지면 얼마든지 없앨 수 없다는 데에 있다.      
@@ -70,4 +76,4 @@ container의 효용은 필요할 때 손쉽게 만들고, 필요 없어지면 �
 ---
 __공부 자료__        
 [생활코딩]생활코딩 Docker 입문수업: https://www.youtube.com/watch?v=Ps8HDIAyPD0       
-[snowturtle93 github.io]Docker Run 옵션: https://snowturtle93.github.io/posts/Docker-Run-%EC%98%B5%EC%85%98/
+[snowturtle93]Docker Run 옵션: https://snowturtle93.github.io/posts/Docker-Run-%EC%98%B5%EC%85%98/

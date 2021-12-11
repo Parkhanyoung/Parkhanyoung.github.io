@@ -22,8 +22,8 @@ __1) commit__
 __2) Dockerfile + build__      
 1. dockerfile에 세부 사항 입력                
    FROM ubuntu:20.04        
-   RUN sudo apt-get -y update
-   RUN sudo apt-get -y install git      
+   RUN sudo apt-get -y update      
+   RUN sudo apt-get -y install git           
 2. docker build -t git-ubuntu [git-ubuntu라는 이름으로 이미지를 생성한다. *t는 tag의 이니셜로, 이미지 이름을 설정한다는 의미이다.]       
          
 dockerfile 명령문      
@@ -43,6 +43,7 @@ dockerfile 명령문
 1. docker login       
 2. docker push 이미지이름[hy/git-ubuntu:1.0.1]       
         
+---
 __공부 자료__    
 [생활코딩]생활코딩 Docker 입문수업: https://www.youtube.com/watch?v=Ps8HDIAyPD0    
 [DaleSeo]Dockerfile에서 자주 쓰이는 명령어: https://www.daleseo.com/dockerfile/     
