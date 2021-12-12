@@ -10,7 +10,6 @@ tags: [rdb, cardinality, relationship]
 가장 일반적인 유형의 관계로, 한 테이블의 한 개의 row가 다른 한 테이블의 한 개 이상의 row와 엮인다.   
 예를 들면 한 명의 작성자가 여러 글을 작성하는 하는 경우이다.   
 한 명의 작성자는 여러 개의 글을 쓸 수 있지만, 하나의 글은 여러 작성자에 의해 작성될 수 없다.   
-작성자와 게시글의 관계도 마찬가지이다.   
 참조하는 쪽의 테이블에서는 참조되는 데이터가 여러 번 반복해서 참조될 수 있다.    
 ![OnetoMany](/assets/img/post-img/OnetoMany.png)   
 
@@ -22,7 +21,7 @@ tags: [rdb, cardinality, relationship]
 그런데, 하나의 row(데이터)가 특정 column에서 여러 항목을 참조할 수는 없다.    
 따라서 junction(or linking) table이라 불리는 새로운 테이블을 만들어 관계를 형성한다.   
 두 개의 테이블을 각각 다른 column으로서 참조하는, 오직 둘의 관계를 나타내는 용도로만 쓰이는 테이블을 만드는 것이다.   
-![ManytoMany](./img/ManytoMany.png)   
+![ManytoMany](/assets/img/post-img/ManytoMany.png)   
     
 실무에서는 이와 같은 다대다 관계를 사용하지 않는 것이 좋다.   
 왜냐하면 서비스가 확장함에 따라, 혹은 기능이 추가됨에 따라 junction table 자체에 주문시간 혹은 수량과 같은 추가적인 데이터가 들어가야 할 필요성이 생길 수 있기 때문이다.   
