@@ -1,7 +1,7 @@
 ---
 title: Time Complexity 2
 date: 2021-12-03 12:00:00 +0800
-categories: [Computer Science, Data structure]
+categories: [Computer Science, Data Structure]
 tags: [python, cs, 자료구조]
 ---
 # 알고리즘의 시간 복잡도2(time complexity)
