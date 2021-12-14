@@ -25,6 +25,6 @@ tags: [data structure, python, list, array]
 3. 연결 리스트(Linked List): 각각의 자료가 별도의 공간에 저장되어 있되, 각각의 자료에 다음 자료의 주소까지 쌍으로 저장되어 있다(next pointer). 인덱스로 접근할 수 없기 때문에 4번째 자료에 접근하기 위해서는 1, 2, 3번 자료를 모두 거쳐야만 한다.       
 ![Sequential Data](/assets/img/post-img/sequential_data.png)
 ![Sequential Data2](/assets/img/post-img/sequential_data2.png)
-
+---
 __공부 자료__         
 [Chan-Su Shin 자료구조]순차적 자료구조 배열과 리스트: https://www.youtube.com/watch?v=Lqd8o7vL2Z8&list=PLsMufJgu5933ZkBCHS7bQTx0bncjwi4PK&index=6
