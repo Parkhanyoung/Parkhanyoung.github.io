@@ -1,6 +1,6 @@
 ---
 title: React Lifecycle
-date: 2021-12-22 00:00:00 +0800
+date: 2021-12-21 00:00:00 +0800
 categories: [Web, React]
 tags: [web, front-end, react, lifecycle, component]
 ---
