@@ -14,7 +14,7 @@ tags: [web, front-end, react, lifecycle, component]
         
         
 ## 컴포넌트 라이프 사이클 메소드
-라이프 사이클은 총 9단계로 구성되며, 라이프 사이클 메소드는 클래스형 컴포넌트에서만 활용가능하며, 함수형 컴포넌트(hooks 사용)에도 각 메소드에 대응되는 구현 방법이 존재한다.     
+라이프 사이클은 총 9단계로 구성되고 라이프 사이클 메소드는 클래스형 컴포넌트에서만 활용가능하며, 함수형 컴포넌트(hooks 사용)에도 각 메소드에 대응되는 구현 방법이 존재한다.     
 세부 사항은 다음과 같다.        
       
 ![생명주기](/assets/img/post-img/reactLifecycle.png)       
@@ -27,7 +27,8 @@ tags: [web, front-end, react, lifecycle, component]
 **7. componentDidUpdate(hooks: useEffect):** 리렌더링 이후 호출된다. 업데이트 직후이므로, DOM 관련 조작이 가능하다.    
 **8. componentWillUnmount(hooks: useEffect CleanUp 메소드):** 컴포넌트를 DOM에서 제거할 때 호출된다. componentDidMount에서 등록한 비동기 이벤트가 있다면 메모리 누수 방지를 위해 여기서 제거해줘야 한다. componentDidMount와 쌍으로 활용되는 경우가 많다.         
 **9. componentDidCatch(hooks: 없음):** 컴포넌트 렌더링 도중 에러가 발생했을 경우 호출된다. 오류 발생 시 앱을 멈추지 않고, 오류 UI를 보여주기 위해 사용한다.     
-     
+       
+       
 - - - 
 __공부 자료__      
 [kyun2dat 개인 블로그] [리액트 라이프사이클의 이해](ttps://kyun2da.dev/react/리액트-라이프사이클의-이해)         
